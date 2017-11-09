@@ -6,7 +6,9 @@ import { HttpModule } from '@angular/http';
 import { MatToolbarModule,
          MatButtonModule,
          MatCheckboxModule,
-         MatListModule} from '@angular/material';
+         MatListModule,
+         MatGridListModule,
+         MatCardModule} from '@angular/material';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
 import 'hammerjs';
@@ -28,6 +30,8 @@ import { MenuComponent } from './menu/menu.component';
     MatButtonModule,
     MatCheckboxModule,
     MatListModule,
+    MatGridListModule,
+    MatCardModule,
     FlexLayoutModule
   ],
   providers: [],
